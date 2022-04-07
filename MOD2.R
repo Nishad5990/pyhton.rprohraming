@@ -1,0 +1,24 @@
+
+q1.)
+print("sequence of numbers from 20 to 50:")
+print(seq(20,50))
+print('mean of numbers from 20 to 60 :')
+print (mean(20:60))
+print('Sum of nummbers from 51 to 91:')
+print (sum(51:91))
+
+q2.)
+
+for (i in 1:100){
+  if(i%%3==0 & i%%5==0){
+    print("Fizz-Buzz")
+  }
+  else if (i%%3==0){
+    print ("Fizz")
+  }
+  else if (i%%5==0){
+    print("Buzz")
+  }
+  else 
+    print(i)
+}
